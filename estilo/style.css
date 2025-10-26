@@ -1,0 +1,134 @@
+ @charset "UTF-8";
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body{
+background-image: linear-gradient( to left,  #e927ff96, #103eb4 , #49018398, #181775);
+font-family: var(--font-002);
+ }
+
+ @font-face {
+  font-family: 'ia', cursive; /* Nome que você vai usar no CSS */
+  src: url('/fontes/Ethnocentric-Regular.otf') format('woff2'); /* Caminho para o arquivo da fonte */
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+    --font-001:"ia",cursive;
+    --font-002:Arial, verdana,sans-serif:
+}
+
+header {
+    height: 250px;  
+}
+
+header > h1{
+    padding-top: 30px;
+    text-align: center;
+    font-family: var(--font-001);
+    font-size: 5vh;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+header > p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.541);
+}
+
+main{
+    background-color: white;
+    max-width: 600px;
+    min-width: 350px;
+    padding: 30px;
+    margin: auto;
+    text-align: justify;
+}
+
+main h2{
+    margin: auto;
+    padding: 20px 10px;
+    margin: 30px 0px;
+    width: 400px;
+    background-image: linear-gradient( to right, rgb(96, 5, 241), rgba(0, 0, 0, 0.884));
+    color: rgba(255, 255, 255, 0.767);
+    font-family: var(--font-001);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+}
+main p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+section{
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imagem{
+    background-color: transparent;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.452);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 10px;
+    text-align: justify;
+    border-radius: 10px;
+    
+
+}
+
+.imagem >p{
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.imagem#img{
+    background: white url("/imagens/olho.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+.imagem#img01 {
+    background: white url("/imagens/olho\ 2.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+footer{
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+
+footer a:hover{
+    text-decoration: underline;
+}
